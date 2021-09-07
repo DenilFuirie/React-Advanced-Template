@@ -1,10 +1,13 @@
 import React, {FC} from 'react';
+import {Layout, Row} from "antd";
 
 const Login: FC = () => {
     return (
-        <div>
-            Login
-        </div>
+        <Layout>
+            <Row justify="center" align="middle">
+
+            </Row>
+        </Layout>
     );
 };
 
